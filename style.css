@@ -16,8 +16,6 @@ header {
     right: 0;
     z-index: 1000;
     background-color: #000000;
-    /* border-top-right-radius: 13px; */
-    /* border-top-left-radius: 13px; */
     padding: 20px 123px;
 }
 
@@ -25,20 +23,10 @@ header {
     width: 120px;
 }
 
-.search {
-    /* display: flex;
-    align-items: center; */
-    /* padding-right: 17em; */
-    
-}
+
 
 .search input {
-    /* padding: 10px;
-    border: none;
-    border-radius: 12px;
-    background: #313131;
-    padding-inline: 37px;
-    text-align: center; */
+   
     background-color: #322f2f55;
     margin-right: 20px;
     border: 2px solid #322f2f55;
@@ -116,11 +104,7 @@ header {
 
 /* Games Section */
 .games {
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-    padding: 20px; */
+    
 
         display: flex;
         justify-content: center;
@@ -148,7 +132,7 @@ header {
     margin: 20px 0;
 }
 
-/* === Slider Container === */
+
 .slider-container {
     display: flex;
     align-items: center;
@@ -158,7 +142,7 @@ header {
     overflow: hidden;
 }
 
-/* === Games Slider (Scrollable Container) === */
+
 .games-slider {
     display: flex;
     gap: 15px;
@@ -191,7 +175,7 @@ header {
     border-radius: 10px;
 }
 
-/* === Navigation Buttons === */
+
 .nav-buttons {
     display: flex;
     gap: 10px;
@@ -304,7 +288,7 @@ header {
 
 
 
-/* ===== Responsive Design ===== */
+
 @media (max-width: 768px) {
     /* Navbar for mobile */
     header {
@@ -315,34 +299,24 @@ header {
         position: relative;
         max-width:100%;
         position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
     }
     .logo  {
         display: flex;
         flex-direction: column;
         margin-right: 231px;
-        margin-top: -10px;
-        width: 65px;
-
+        margin-top: -28px;
+        width: 57px;
+        height: 20px;
     }
     .logo img{
         width: 65px;
     }
     
-    .search {
-
-        /* display: flex;
-        align-items: center;
-        margin-left: -90px;
-        margin-top: 20px; */
-        /* margin-top: 25px;
-        width: 81%;
-        justify-content: center; */
-        /* margin-left: 172px; */
-    }
+    
 
     .search input {
         /* width: 60%; */
@@ -358,7 +332,7 @@ header {
                 margin-left: 4px;
             }
         
-    /*  */
+    
     .search ::placeholder{
         /* width: 100%; */
         color: gray;
@@ -389,7 +363,7 @@ header {
         height: 26px;
     }
       
-    /* Banner Section for mobile */
+    
     .banner{
         position: relative;
         text-align: center;
@@ -398,17 +372,7 @@ header {
          margin: auto;
     }
     
-    /* Games Section for mobile */
-    /* .games {
-        
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .game-card img {
-        width: 90%;
-        max-width: 300px;
-    } */
+   
 
     .games {
         display: flex;
@@ -476,10 +440,7 @@ header {
         width: 110px;
     }
 
-    /* .prev-btn, .next-btn {
-        padding: 8px 12px;
-        font-size: 16px;
-    } */
+    
 
     .container h2{
         font-size: 12px;
